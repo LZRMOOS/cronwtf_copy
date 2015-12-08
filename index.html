@@ -48,15 +48,8 @@ textarea {
     <div id="img"><img src="images/wtf.jpg" alt="WTF?" width="387" height="362" /></div>
     <form>
       <div>
-        <textarea id="cron"># *    *    *    *    *    *
-# -    -    -    -    -    -
-# |    |    |    |    |    |
-# |    |    |    |    |    + year [optional]
-# |    |    |    |    +----- day of week (0 - 7) (Sunday=0 or 7)
-# |    |    |    +---------- month (1 - 12)
-# |    |    +--------------- day of month (1 - 31)
-# |    +-------------------- hour (0 - 23)
-# +------------------------- min (0 - 59)
+        <textarea id="cron"># paste cron schedules here
+# min hour dom mon dow COMMAND
 0 0 0 0 0 COMMAND
 </textarea>
         <ul id="results"></ul>
